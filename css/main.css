@@ -1,0 +1,215 @@
+@import "/css/reset.css";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Poppins:wght@400;500;600;700&display=swap');
+
+
+body {
+  color: black;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.title-1 {
+  font-size: 34px;
+  color: #070707;
+  font-weight: 600;
+  }
+
+.header {
+  background-color: #F1F1F1;
+  padding-top: 30px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 76px;
+}
+
+.logo {
+  font-family: 'Borel', cursive;
+  font-weight: 700;
+  font-size: 32px;
+  color: black;
+  padding: 0 12px 3px 0;
+  position: relative;
+}
+
+.logo::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #fda300;
+  border-radius: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 25px;
+}
+
+.nav-list {
+display: flex;
+column-gap: 50px;
+font-weight: 500;
+font-size: 14px;
+}
+
+.nav-button {
+  display: none;
+}
+
+
+.nav-link {
+color: black;
+}
+
+.nav-link.active {
+  color: #606060;
+}
+
+/* Header content*/
+
+.header-row {
+  display: flex; 
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.header-content {
+  max-width: 500px;
+  margin-top: 124px;
+}
+
+.header-heading {
+  font-weight: 600;
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+
+.header-content p {
+line-height: 2;
+
+}
+
+/* Service */
+
+.services {
+padding: 90px 0;
+}
+
+.services-row {
+display: flex;
+column-gap: 30px;
+flex-wrap: wrap;
+row-gap: 60px;
+}
+
+.service-card {
+  flex: 1 1 0;
+  min-width: 315px;
+}
+
+
+.service-card-img {
+  margin-bottom: 30px;
+}
+
+.service-card-title {
+font-weight: 600;
+font-size: 24px;
+margin-bottom: 10px;
+text-transform: uppercase;
+}
+
+.service-card p {
+  line-height: 2;
+}
+
+.portfolio {
+background-color: #F1F1F1;
+padding: 90px 0;
+}
+
+.project {
+text-align: center;
+
+}
+
+.project + .project {
+  margin-top: 90px;
+}
+
+.portfolio-title {
+text-align: center;
+margin-bottom: 70px;
+}
+
+.project-img {
+margin-bottom: 40px;
+}
+
+.project-title {
+font-size: 18px;
+
+}
+
+.project-title a {
+  color: #070707;
+  text-decoration: underline;
+
+}
+
+.contacts {
+text-align: center;
+padding: 90px 0;
+}
+
+.contacts-title {
+margin-bottom: 40px;
+}
+
+
+.button {
+padding: 40px 0 80px 0;
+}
+
+.btn {
+  background-color: #070707;
+  display: inline-block;
+  padding: 7px 22px;
+  border-radius: 30px;
+  color: #F1F1F1;
+  font-size: 18px;
+}
+
+.social-contacts {
+font-size: 40px;
+display: flex;
+column-gap: 60px;
+justify-content: center;
+}
+
+.contacts-content {
+  font-size: 18px;
+  font-weight: 400;
+  
+}
+
+.social-contacts a {
+  color: #070707;
+}
+
+.social-contacts-like {
+  padding-top: 40px;
+font-size: 14px;
+font-weight: 400;
+color: #828282;
+}
